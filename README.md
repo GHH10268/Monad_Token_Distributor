@@ -32,6 +32,10 @@ A PyQt5-based desktop application for distributing native tokens on the Monad te
 - Web3.py
 
 ---
+## Install requirements / 安装库
+```bash
+pip install -r requirements.txt
+```
 
 ## Configuration / 配置
 “giver.txt”：
@@ -40,8 +44,9 @@ This file should contain the private key of the wallet used for distributing tok
 
 ## Usage / 使用说明
 Run the application / 运行程序：
---python main.py
-
+```bash
+python main.py
+```
 
 Enter recipient addresses / 输入接收者地址：
 
